@@ -185,7 +185,7 @@ QVariant EOrmModel::headerData(int section,
 {
     if (orientation == Qt::Horizontal) {
         if (role == Qt::DisplayRole) {
-            return QString("%1").arg(this->m_fieldsList.at(section));
+            return this->m_fieldsList.at(section);
         }
     }
     return QVariant();

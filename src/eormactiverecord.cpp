@@ -177,7 +177,7 @@ bool EOrmActiveRecord::init(QSqlDatabase db, QVariant pk)
  */
 QString EOrmActiveRecord::primaryKeyName()
 {
-    return QString("id");
+    return this->db().primaryIndex(this->tableName()).name();
 }
 
 /*!

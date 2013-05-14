@@ -109,6 +109,9 @@ void EOrmModel::setData(QList<T*> objList)
     T *firstObj = objList.at(0);
     this->m_objList << firstObj;
     this->m_fieldsList = firstObj->properties().keys();
+    this->m_fieldsList.removeAt(this->m_fieldsList.indexOf(firstObj->
+                                                           primaryKeyName()));
+    this->m_fieldsList.prepend(firstObj->primaryKeyName());
     for (int i = 1; i < objList.count(); i++) {
         T * obj = objList.at(i);
         this->m_objList << obj;

@@ -42,6 +42,7 @@
 #ifndef EORM_H
 #define EORM_H
 
+#include "eorm_global.h"
 #include <QObject>
 #include <QtSql>
 #include "eormexception.h"
@@ -59,7 +60,7 @@
  *  также предоставляющий механизм обработки ошибок.
  * \endlang
  */
-class EOrm : QObject
+class EORMSHARED_EXPORT EOrm : QObject
 {
     Q_OBJECT
 

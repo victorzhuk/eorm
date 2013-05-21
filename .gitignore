@@ -21,7 +21,5 @@ Makefile
 
 # self
 
-debug
-release
-build
+build*
 .svn

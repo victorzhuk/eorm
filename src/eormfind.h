@@ -42,6 +42,7 @@
 #ifndef EORMFIND_H
 #define EORMFIND_H
 
+#include "eorm_global.h"
 #include "eormactiverecord.h"
 
 /*!
@@ -86,7 +87,7 @@
  * \endcode
  * \endlang
  */
-class EOrmFind : public QObject
+class EORMSHARED_EXPORT EOrmFind : public QObject
 {
     Q_OBJECT
 

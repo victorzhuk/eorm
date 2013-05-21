@@ -42,6 +42,7 @@
 #ifndef EORMACTIVERECORD_H
 #define EORMACTIVERECORD_H
 
+#include "eorm_global.h"
 #include "eorm.h"
 
 /*!
@@ -128,7 +129,7 @@
  * \endcode
  * \endlang
  */
-class EOrmActiveRecord : public QObject
+class EORMSHARED_EXPORT EOrmActiveRecord : public QObject
 {
     Q_OBJECT
 

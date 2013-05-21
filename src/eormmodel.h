@@ -42,6 +42,7 @@
 #ifndef EORMMODEL_H
 #define EORMMODEL_H
 
+#include "eorm_global.h"
 #include "eormactiverecord.h"
 
 /*!
@@ -73,7 +74,7 @@
  * \endcode
  * \endlang
  */
-class EOrmModel : public QAbstractItemModel
+class EORMSHARED_EXPORT EOrmModel : public QAbstractItemModel
 {
     Q_OBJECT
 

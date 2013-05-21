@@ -22,4 +22,5 @@ HEADERS += \
     eormfind.h \
     eormmodel.h \
     eorm.h \
-    eormexception.h
+    eormexception.h \
+    eorm_global.h

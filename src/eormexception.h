@@ -42,6 +42,7 @@
 #ifndef EORMEXCEPTION_H
 #define EORMEXCEPTION_H
 
+#include "eorm_global.h"
 #include <QtCore>
 
 /*!
@@ -55,7 +56,7 @@
  * \brief Класс, реализующий исключения
  * \endlang
  */
-class EOrmException
+class EORMSHARED_EXPORT EOrmException
 {
 
 public:

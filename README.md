@@ -1,3 +1,6 @@
+# ATTENTION!
+## project is not supported. see [orm-qt](http://github.com/victorzhuk/orm-qt) for future realses
+
 # EOrm library
 
   Realization of ORM technology with Qt.
